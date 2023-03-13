@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Philippine Airlines</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+<!-- Boxicons CSS -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="content">
+    <div class="navigation">
+        <img src="air.png">
+        <div class="menu">
+    <ul>
+      <li><a href="#">En</a></li>
+        <i class='bx bx-globe'></i>
+        <li><a href="#">Help & support</a></li>
+        <li><a href="#">Sign in</a></li>
+        <i class='bx bx-search-alt-2' ></i>
+    </ul>
+  </div>
+    </div>
+    <div class="sayings">
+      <h1>Enroll</h1>
+      <h4 class="h33">Earn miles to go above the skies and beyond!<br>Sign-up for free today.</h4>
+    </div>
+</div><br><br>
+<div class="formfall">
+  <div class="formform">
+</div>
+<div class="container">
+     <div class="title">
+
+      <h3>Enrollment Form</h3><br>
+      <p>
+  Fill out the form to become a member of Mabuhay Miles program and start earning miles now! Name should match travel documents such as Passport</p><br><br>
+  <h3>Personal Information</h3><br>
+  <input type="radio" id="radio"  value="MSL"><label>MS</label>
+   <input type="radio" id="radio" value="MR"><label>MR</label>
+</div>
+
+        <form id="form" action="/">
+            <div class="input-control">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" onkeyup="validatename()">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="lname">Last name</label>
+                <input id="lname" name="lname" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+
+                <label for="suffix">Suffix</label>
+                <select id="option" name="suffix">
+                <option value="None">None</option>
+                 <option value="Jr">Jr</option>
+                <option value="Sr">Sr</option>
+            </select>
+          </div>
+           <div class="input-control">
+                <label for="birthday">Birth date</label>
+                <input type="date" id="birthday" name="birthday">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="nationality">Country</label>
+                <select id="option" name="Country">
+                <option>Philippines</option>
+                 <option>Afghanistan</option>
+                  <option>Aland Islannds</option>
+                   <option>Albania</option>
+            </select>
+          </div>
+          <div class="input-control">
+              <label for="tel">Mobile number</label>
+
+            <input type="tel" id="tel" name="tel">
+                <div class="error"></div>
+            </div>
+            <div class="unit">
+            <div class="title">
+      <h3>Add-Mabuhay Miles log-in details</h3></div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="hi">
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Re-enter password</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+          </div>
+            <br><br>
+            <div class="title"><h3>Do you have a Promo Code? <small>(Optional)</small></h3></div>
+            <div class="input-control">
+            <input type="text" name="promo">
+          </div>
+        </div>
+        <div id="check">
+          <input type="checkbox" id="agreement">I have read and understood the Terms and Conditions of Mabuhay Miles and the Data Privacy <br>Policy of Philippine Airlines
+        </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
